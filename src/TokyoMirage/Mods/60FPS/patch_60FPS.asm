@@ -12,3 +12,10 @@ moduleMatches = 0x2249A57A
 0x0248B11C = nop						; Disable vsync
 
 ; 0x10065E50 = .float 0.033333335 ; cinematic animation speed, for future reference
+
+[TMS_60FPSJP v.32]
+moduleMatches = 0x15735ab9, 0x27d4103c, 0xe85bb66b
+
+0x02448C98 = li r4, 1
+
+; 0x02447B10 if you are using v.17
